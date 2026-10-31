@@ -1,0 +1,23 @@
+{
+  "geode": "v5.0.0",
+  "gd": { "android": "2.2081" },
+  "version": "v1.0.0",
+  "id": "zoggie.simple-noclip",
+  "name": "Simple Noclip",
+  "developer": "Zoggie",
+  "description": "A simple noclip toggle with an optional indicator.",
+  "settings": {
+    "noclip-enabled": {
+      "name": "Noclip",
+      "description": "Prevent most normal player deaths. Use for practice.",
+      "type": "bool",
+      "default": false
+    },
+    "show-indicator": {
+      "name": "Show Noclip Indicator",
+      "description": "Show whether noclip is on. Re-enter the level after changing this.",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
